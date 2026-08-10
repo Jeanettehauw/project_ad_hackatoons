@@ -66,11 +66,11 @@ This system was proudly developed by **Group Hackatoons** in collaboration with 
 
 | Profile | Full Name | Matric Number |
 | :---: | :--- | :--- |
-| 👩‍💻 | **Lubna Al Haani Binti Radzuan** | `A23CS0107`[cite: 1] |
-| 👩‍💻 | **Harini A/P Sangaran** | `A23CS0081`[cite: 1] |
-| 👩‍💻 | **Nurul Asyikin Binti Khairul Anuar** | `A23CS0162`[cite: 1] |
-| 👩‍💻 | **Jeanette Hauw Chandra** | `X25EC3020`[cite: 1] |
-| 👩‍💻 | **Anis Safiyya Binti Janai** | `A23CS0049`[cite: 1] |
+| 👩‍💻 | **Lubna Al Haani Binti Radzuan** | `A23CS0107` |
+| 👩‍💻 | **Harini A/P Sangaran** | `A23CS0081` |
+| 👩‍💻 | **Nurul Asyikin Binti Khairul Anuar** | `A23CS0162` |
+| 👩‍💻 | **Jeanette Hauw Chandra** | `X25EC3020` |
+| 👩‍💻 | **Anis Safiyya Binti Janai** | `A23CS0049` |
 
 ---
 <div align="center">
