@@ -7,7 +7,7 @@
 ![Supabase](https://img.shields.io/badge/Backend-Supabase_2.15.0-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 
-> An integrated, cross-platform mobile application developed to centralize and digitalize teacher administration for **Tadika Aqil Miqail**[cite: 1, 2].
+> An integrated, cross-platform mobile application developed to centralize and digitalize teacher administration for **Tadika Aqil Miqail**.
 
 </div>
 
