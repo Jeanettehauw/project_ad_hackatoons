@@ -15,9 +15,9 @@
 
 ## 📖 About The Project
 
-Educational institutions often face operational bottlenecks due to decentralized record-keeping, inefficient manual leave processing, unstructured duty allocation, and subjective performance evaluations[cite: 1]. 
+Educational institutions often face operational bottlenecks due to decentralized record-keeping, inefficient manual leave processing, unstructured duty allocation, and subjective performance evaluations. 
 
-**GENIUSAQILOS** solves these challenges by providing an integrated solution with a relational cloud database that reduces administrative overhead and introduces standardized, automated workflows[cite: 1]. The system supports two primary user roles—**Teachers** and **Principals**—each equipped with specific interfaces and privileges to handle daily school operations securely[cite: 1].
+**GENIUSAQILOS** solves these challenges by providing an integrated solution with a relational cloud database that reduces administrative overhead and introduces standardized, automated workflows. The system supports two primary user roles—**Teachers** and **Principals**—each equipped with specific interfaces and privileges to handle daily school operations securely.
 
 ---
 
@@ -27,42 +27,42 @@ The system is divided into six main functional modules to streamline institution
 
 | Icon | Module Name | Core Features & Description |
 | :---: | :--- | :--- |
-| 🗂️ | **Teacher Records** | <ul><li>Store comprehensive personal info (IC Number, Contacts)[cite: 2].</li><li>Upload official documents (MyKad, Resume, Medical Check Up)[cite: 2].</li><li>Principals can track document verification statuses[cite: 3].</li></ul> |
-| 🏖️ | **Leave Management** | <ul><li>Apply for 10 specific leave types (Annual, Medical, Maternity, etc.)[cite: 2].</li><li>Track remaining leave balances automatically[cite: 3].</li><li>Notify teachers for approval, rejections, and reminders[cite: 3].</li></ul> |
-| 📋 | **Task & Duty Manager** | <ul><li>Auto-generate fair duty schedules for active staff[cite: 3].</li><li>Manage daily/monthly tasks (Cleaning, Arrival, Dismissal, Assembly)[cite: 2].</li><li>Provide clear checklists for tasks (e.g., Mop floors, empty bins)[cite: 2].</li></ul> |
-| 🎓 | **Training Tracker** | <ul><li>Record training details across categories (Teaching Skills, Child Dev)[cite: 2].</li><li>Upload certificates, photos, and post-training reflections[cite: 2].</li><li>Monitor progress against annual minimum training targets[cite: 3].</li></ul> |
-| 📈 | **Performance Tracker** | <ul><li>Evaluate teachers based on 10 KPI categories (Attendance, Pedagogy)[cite: 2].</li><li>Auto-calculate performance percentage scores from checklists[cite: 3].</li><li>Store warning letters and misconduct records centrally[cite: 3].</li></ul> |
-| 🚨 | **Reporting System** | <ul><li>Submit reports easily (Damage, Bullying, IT/System problems)[cite: 2, 3].</li><li>Upload photographic evidence of incidents or hazards[cite: 3].</li><li>Support anonymous reporting and real-time status tracking[cite: 3].</li></ul> |
+| 🗂️ | **Teacher Records** | <ul><li>Store comprehensive personal info (IC Number, Contacts)[cite: 2].</li><li>Upload official documents (MyKad, Resume, Medical Check Up).</li><li>Principals can track document verification statuses.</li></ul> |
+| 🏖️ | **Leave Management** | <ul><li>Apply for 10 specific leave types (Annual, Medical, Maternity, etc.)[cite: 2].</li><li>Track remaining leave balances automatically.</li><li>Notify teachers for approval, rejections, and reminders.</li></ul> |
+| 📋 | **Task & Duty Manager** | <ul><li>Auto-generate fair duty schedules for active staff[cite: 3].</li><li>Manage daily/monthly tasks (Cleaning, Arrival, Dismissal, Assembly).</li><li>Provide clear checklists for tasks (e.g., Mop floors, empty bins).</li></ul> |
+| 🎓 | **Training Tracker** | <ul><li>Record training details across categories (Teaching Skills, Child Dev).</li><li>Upload certificates, photos, and post-training reflections.</li><li>Monitor progress against annual minimum training targets.</li></ul> |
+| 📈 | **Performance Tracker** | <ul><li>Evaluate teachers based on 10 KPI categories (Attendance, Pedagogy).</li><li>Auto-calculate performance percentage scores from checklists.</li><li>Store warning letters and misconduct records centrally.</li></ul> |
+| 🚨 | **Reporting System** | <ul><li>Submit reports easily (Damage, Bullying, IT/System problems).</li><li>Upload photographic evidence of incidents or hazards[cite: 3].</li><li>Support anonymous reporting and real-time status tracking.</li></ul> |
 
 ---
 
 ## 🛠️ Technology Stack
 
-GENIUSAQILOS is built using a modern, scalable, and responsive technology stack[cite: 1]:
+GENIUSAQILOS is built using a modern, scalable, and responsive technology stack:
 
 | Component | Technology | Description |
 | :--- | :--- | :--- |
-| **Frontend UI** | `Flutter` (v3.41.9) | Cross-platform mobile app framework[cite: 1]. |
-| **Logic & Syntax** | `Dart` (v3.11.5) | Object-oriented language for logic and processing[cite: 1]. |
-| **Backend & Auth** | `Supabase` (v2.15.0) | Backend-as-a-Service for user auth and role-based access[cite: 1]. |
-| **Database** | `PostgreSQL` | Relational database mapping entities and ERD connections[cite: 1]. |
-| **Cloud Storage** | `Supabase Storage` & `Cloudinary` | Secure storage for evidence, certificates, and profile images[cite: 1]. |
-| **Version Control** | `GitHub` & `GitHub Desktop` | Code tracking, repository management, and collaboration[cite: 1]. |
+| **Frontend UI** | `Flutter` (v3.41.9) | Cross-platform mobile app framework. |
+| **Logic & Syntax** | `Dart` (v3.11.5) | Object-oriented language for logic and processing. |
+| **Backend & Auth** | `Supabase` (v2.15.0) | Backend-as-a-Service for user auth and role-based access. |
+| **Database** | `PostgreSQL` | Relational database mapping entities and ERD connections. |
+| **Cloud Storage** | `Supabase Storage` & `Cloudinary` | Secure storage for evidence, certificates, and profile images. |
+| **Version Control** | `GitHub` & `GitHub Desktop` | Code tracking, repository management, and collaboration. |
 
 ---
 
 ## 🏛️ System Architecture
 
-The application adopts a robust **Three-Tier Architecture**[cite: 1]:
-1. **Presentation Layer:** The responsive Flutter mobile interface customized for Teacher and Principal roles[cite: 1].
-2. **Application Layer:** The Dart-based business logic, implementing the Provider pattern to decouple UI screens from backend calculations[cite: 1].
-3. **Data Layer:** Managed by Supabase (PostgreSQL) and Supabase Storage to securely handle user access, files, and role verifications[cite: 1].
+The application adopts a robust **Three-Tier Architecture**:
+1. **Presentation Layer:** The responsive Flutter mobile interface customized for Teacher and Principal roles.
+2. **Application Layer:** The Dart-based business logic, implementing the Provider pattern to decouple UI screens from backend calculations.
+3. **Data Layer:** Managed by Supabase (PostgreSQL) and Supabase Storage to securely handle user access, files, and role verifications.
 
 ---
 
 ## 👨‍💻 Development Team
 
-This system was proudly developed by **Group Hackatoons** in collaboration with **Tadika Aqil Miqail** and **Universiti Teknologi Malaysia (UTM)**[cite: 1].
+This system was proudly developed by **Group Hackatoons** in collaboration with **Tadika Aqil Miqail** and **Universiti Teknologi Malaysia (UTM)**.
 
 | Profile | Full Name | Matric Number |
 | :---: | :--- | :--- |
@@ -74,5 +74,5 @@ This system was proudly developed by **Group Hackatoons** in collaboration with 
 
 ---
 <div align="center">
-  <i>Developed for the requirement of the Bachelor of Computer Science (Data Engineering) degree at Universiti Teknologi Malaysia (UTM).</i>[cite: 1]
+  <i>Developed for the requirement of the Bachelor of Computer Science (Data Engineering) degree at Universiti Teknologi Malaysia (UTM).</i>
 </div>
